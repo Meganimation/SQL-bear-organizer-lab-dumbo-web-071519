@@ -1,11 +1,15 @@
-CREATE TABLE bears (
+CREATE TABLE user (
 id INTEGER PRIMARY KEY, 
 name TEXT,
 age INTEGER,
-gender TEXT,
-color TEXT,
-temperament TEXT,
-alive BOOLEAN,
-breed TEXT
+favorite food TEXT
+);
+
+
+CREATE TABLE words (
+id INTEGER PRIMARY KEY, 
+word1 TEXT,
+word2 TEXT,
+word3 TEXT,
 );
 
